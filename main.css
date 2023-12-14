@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(hillBG.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #5F261C;
+  }
+  
+  .weather-container {
+    text-align: center;
+    font-size: 25px;
+  }
+  
+  input[type="text"] {
+    padding: 8px;
+    margin: 10px 0;
+  }
+  
+.weatherButton {
+    padding: 10px 20px;
+    cursor: pointer;
+    color: #5F261C;
+    padding: 12px 24px;
+      font-size: 16px;
+      text-align: center;
+      text-decoration: none;
+      color: #5F261C;
+      background-color: transparent;
+      border: 2px solid #5F261C;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      outline: none;
+  }
+ .weatherButton:hover{
+    background-color: #5F261C;
+      color: white;
+      transform: translateY(2px);
+  }
+  #weather-info {
+    margin-top: 20px;
+  }
+  
